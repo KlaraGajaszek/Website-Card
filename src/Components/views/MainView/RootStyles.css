@@ -1,0 +1,17 @@
+.content__wrapper {
+  min-height: 100%;
+}
+
+.content {
+  padding: 40px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+
+@media (max-width: 768px) {
+  .content {
+    left: 40%;
+  }
+}

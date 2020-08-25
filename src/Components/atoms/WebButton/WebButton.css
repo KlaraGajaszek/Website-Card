@@ -1,0 +1,19 @@
+.closeModalButton {
+  color: #2699fb;
+  background-color: #F1F9FF;
+  width: 25px;
+  height: 25px;
+  outline: none !important;
+  border-radius: 50%;
+  border: none;
+  margin-top: -25px;
+  padding: 0px 0px 26px 1px;
+  position: relative;
+}
+
+.button__content__wrapper {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
