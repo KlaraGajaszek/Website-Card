@@ -45,7 +45,7 @@ useEffect(() => {
 getPhotoData();
 }, []);```
 ````
-
+### Installation
 To run this project, install it locally using :
 
 ```
