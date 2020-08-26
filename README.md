@@ -16,7 +16,7 @@ Languages and frameworks:
 
 ### :see_no_evil: Code
 
-- In the tree there is Components folder in which there are Atoms, Molecules and View folders thanks for it the structure of my project is really easy. Create small components (atoms) which can be reusable and expanded for new features and them create huge components with atoms and molecules.
+- In the tree there is Components folder in which there are Atoms, Molecules and View folders thanks for it the structure of project is really easy. Create small components (atoms) which can be reusable and expanded for new features and them create huge components with atoms and molecules.
 
 ```javascript
 <WebButton
