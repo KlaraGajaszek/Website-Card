@@ -1,10 +1,11 @@
 import React, { useState, useContext } from 'react';
-import Button from 'react-bootstrap/Button';
 
+import Button from 'react-bootstrap/Button';
+import Hexagon from '../atoms/Hexagon/Hexagon';
 import './MainPageContent.css';
-import Hexagon from '../../atoms/Hexagon/Hexagon';
-import AppContext from '../../../context/context';
-import { mainPagedata } from '../../data';
+import AppContext from '../../context/context';
+
+import { mainPagedata } from '../data';
 
 const Box = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);

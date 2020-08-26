@@ -2,22 +2,23 @@ import React, { useContext, useEffect, useState } from 'react';
 
 import axios from 'axios';
 import { Modal } from 'react-bootstrap';
-
 import { GiEarthAmerica } from 'react-icons/gi';
 import { IoMdClose } from 'react-icons/io';
 import { IoIosArrowBack } from 'react-icons/io';
 import { IoIosArrowForward } from 'react-icons/io';
 
-import './GalleryModal.css';
 import AppContext from '../../../context/context';
-import WebButton from '../../atoms/WebButton/WebButton';
+import ButtonClose from '../../atoms/ButtonClose/ButtonClose';
+
+import './GalleryModal.css';
 
 const GalleryModal = () => {
+  const value = useContext(AppContext);
+
+  const { isGalleryModalOpen, handleGalleryModalClose } = value;
+
   const [photos, setPhotos] = useState([]);
   const [photoIndex, setPhotoIndex] = useState(0);
-
-  const value = useContext(AppContext);
-  const { isGalleryModalOpen, handleGalleryModalClose } = value;
 
   const getPhotoData = () => {
     axios
@@ -48,6 +49,7 @@ const GalleryModal = () => {
     }
   };
 
+  console.log(photos);
   return (
     <>
       <Modal
@@ -58,7 +60,7 @@ const GalleryModal = () => {
         <Modal.Header className="galleryModal__header">
           <div className="galleryHeader__firstSection__wrapper">
             <h6>Gallery In Modal</h6>
-            <WebButton
+            <ButtonClose
               content={<IoMdClose className="galleryModal__icon__close" />}
               btnFunction={handleGalleryModalClose}
               className={'closeModalButton'}
@@ -82,7 +84,7 @@ const GalleryModal = () => {
         <div className="gallerModal__content">
           <div className="galleryModal__imageSlider__wrapper">
             <button
-              className="galleryModal__content__btn"
+              className="galleryModal__content__prevPhotoBtn"
               disabled={photoIndex === 0 ? true : false}
               style={{
                 color: photoIndex === 0 ? 'grey' : '#2699fb',
@@ -102,7 +104,7 @@ const GalleryModal = () => {
               />
             )}
             <button
-              className="galleryModal__content__btn"
+              className="galleryModal__content__nextPhotoBtn"
               style={{
                 color: photoIndex === 9 ? 'grey' : '#2699fb',
                 borderColor: photoIndex === 9 ? 'grey' : '#2699fb',

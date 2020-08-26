@@ -1,7 +1,7 @@
 import React from 'react';
-import './WebButton.css';
+import './ButtonClose.css';
 
-const Button = ({ className, content, btnFunction = () => {} }) => {
+const ButtonClose = ({ className, content, btnFunction = () => {} }) => {
   return (
     <button className={className} onClick={(e) => btnFunction(e)}>
       <span className="button__content__wrapper">{content}</span>
@@ -9,4 +9,4 @@ const Button = ({ className, content, btnFunction = () => {} }) => {
   );
 };
 
-export default Button;
+export default ButtonClose;

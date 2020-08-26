@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Footer.css';
-import { footerData } from '../../../data';
+import { footerData } from '../../data';
 
 import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 

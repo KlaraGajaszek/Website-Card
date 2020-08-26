@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 
 import './RootStyles.css';
 import AppContext from '../../../context/context';
-import Footer from '../../molecules/Navigations/Footer/Footer';
-import MainPageContent from '../../molecules/MainPageContent/MainPageContent';
+import Footer from '../../Navigations/Footer/Footer';
+import MainPageContent from '../../MainPageContent/MainPageContent';
 import GalleryModal from '../../molecules/GalleryModal/GalleryModal';
 
-const Root = () => {
+const App = () => {
   const [isGalleryModalOpen, setGalleryModalVisiblity] = useState(false);
 
   const handleGalleryModalClose = () => {
@@ -38,4 +38,4 @@ const Root = () => {
   );
 };
 
-export default Root;
+export default App;
