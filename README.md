@@ -1,7 +1,6 @@
 <h2> Web card </h2>
 
 Web card is really basic website (portfolio card) where you can substitute your data in data.js file and thanks for it you can create your own business card.
-https://user-images.githubusercontent.com/59035908/91284116-c7fdf080-e78b-11ea-982b-d58598a6e921.png
 
 ### Technologies
 
