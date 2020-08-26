@@ -1,10 +1,10 @@
-<h2> Web card </h2>
+<h2> 🔥 Web card </h2>
 
 Web card is really basic website (portfolio card) where you can substitute your data in data.js file and thanks for it you can create your own business card.
 
-### Technologies
+###Technologies
 
-Languages and frameworks:
+:eyes:Languages and frameworks:
 
 - Java Script
 - HTML 5
@@ -45,7 +45,7 @@ useEffect(() => {
 getPhotoData();
 }, []);```
 ````
-### Installation
+### 💻 Installation
 To run this project, install it locally using :
 
 ```
@@ -54,3 +54,9 @@ $ npm install
 $ npm start
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ```
+### Contribute
+
+If you want add or change something feel free to create the issues and discuss about it with me
+
+### Contact
+All information about me you can find on my home page in github 
