@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
-
 import axios from 'axios';
+
 import { Modal } from 'react-bootstrap';
 import { GiEarthAmerica } from 'react-icons/gi';
 import { IoMdClose } from 'react-icons/io';
@@ -9,7 +9,6 @@ import { IoIosArrowForward } from 'react-icons/io';
 
 import AppContext from '../../../context/context';
 import ButtonClose from '../../atoms/ButtonClose/ButtonClose';
-
 import './GalleryModal.css';
 
 const GalleryModal = () => {

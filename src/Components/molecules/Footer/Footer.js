@@ -1,9 +1,9 @@
 import React from 'react';
 
+import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
+
 import './Footer.css';
 import { footerData } from '../../data';
-
-import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
