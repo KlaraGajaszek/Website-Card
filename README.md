@@ -4,7 +4,7 @@ Web card is really basic website (portfolio card) where you can substitute your 
 
 ###Technologies
 
-:eyes:Languages and frameworks:
+Languages and frameworks:
 
 - Java Script
 - HTML 5
