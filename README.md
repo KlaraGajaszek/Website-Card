@@ -2,7 +2,7 @@
 
 Web card is really basic website (portfolio card) where you can substitute your data in data.js file and thanks for it you can create your own business card.
 
-###Technologies
+### :eyes: Technologies
 
 Languages and frameworks:
 
