@@ -12,7 +12,7 @@ Languages and frameworks:
 - React Bootstrap 4.5 v1.3.0
 - Atomic Design Structure
 
-### Code
+### :see_no_evil: Code
 
 - Create small components (atoms) which can be reusable and expanded for new features
 
@@ -54,9 +54,9 @@ $ npm install
 $ npm start
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ```
-### Contribute
+### :couple: Contribute
 
 If you want add or change something feel free to create the issues and discuss about it with me
 
-### Contact
+### :ear: Contact
 All information about me you can find on my home page in github 
