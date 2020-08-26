@@ -3,7 +3,7 @@
 Web card is really basic website (portfolio card) where you can substitute your data in data.js file and thanks for it you can create your own business card. What is more the application is full responsive. 
 
 ###  Description
-The application has homepage and modal. On the homepage there are box with main text. The box can be expanded when the More button is click so thanks for it of first sight the person can see the most important informations and them the box can be expanded so now there are more information. When the Show Gallery button is clicked the modal with photos is open. In the modal there are 10 photo from external api but feel free to change it for your photo and then you can create amazing business card. 
+The application has homepage and modal. On the homepage there are box with main text. The box can be expanded when the More button is click so thanks for it of first sight the person can see the most important informations and them the box can be expanded so now there are more information. When the Show Gallery button is clicked the modal with photos is open. In the modal there are 10 photos from external api but feel free to change it for your photos and then you can create amazing business card. 
 ### :eyes: Technologies
 
 Languages and frameworks:
