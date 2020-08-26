@@ -137,4 +137,9 @@
     height: 250px;
     border-radius: 10px;
   }
+
+  .galleryModal__icon__earth {
+    margin-right: 6px;
+    margin-top: 0px;
+  }
 }
