@@ -59,4 +59,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 If you want add or change something feel free to create the issues and discuss about it with me
 
 ### :ear: Contact
-All information about me you can find on my home page in github 
+All information about me you can find on my home page on the github 
