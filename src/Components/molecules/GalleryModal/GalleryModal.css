@@ -30,8 +30,6 @@
   width: 100%;
   background-color: #F1F9FF;
   position: relative;
-
-
 }
 
 .galleryModal__imageSlider__wrapper {
@@ -40,11 +38,11 @@
   width: 100%;
   transform: translate(0, -30%);
   display: grid;
-
   grid-template-columns: 100px 1fr 100px;
 }
 
-.galleryModal__content__prevPhotoBtn {
+/*navigation buttons*/
+.galleryModal__content__btn {
   width: 30px;
   height: 30px;
   border-radius: 10px;
@@ -56,23 +54,6 @@
   margin-left: 20px;
   margin: auto;
   position: relative;
-
-}
-
-.galleryModal__content__nextPhotoBtn {
-  width: 30px;
-  height: 30px;
-  border-radius: 10px;
-  outline: none !important;
-  padding: 30px;
-  color: #2699fb;
-  border: 2px solid #2699fb;
-  background-color: #F1F9FF;
-  margin-right: 20px;
-  margin: auto;
-  position: relative;
-
-
 }
 
 .galleryModal__content__picsumImage {
@@ -80,10 +61,7 @@
   margin: auto;
   height: 320px;
   border-radius: 10px;
-
 }
-
-
 
 .galleryModal__icon__earth {
   margin-right: 6px;
@@ -100,7 +78,6 @@
 }
 
 .galleryModal__icon__arrayNext {
-  /* margin: 10px 5px 10px 10px; */
   width: 50px;
   height: 50px;
   position: absolute;
@@ -124,19 +101,23 @@
   color: #2699fb
 }
 
-
 @media (max-width: 320px) {
+  a {
+    font-size: 10px;
+  }
 
   .galleryModal__wrapper {
     height: 80%;
   }
-
 }
 
 @media (max-width: 420px) {
+  a {
+    font-size: 10px;
+  }
+
   .gallerModal__content {
     height: 400px;
-
   }
 
   .galleryModal__imageSlider__wrapper {
@@ -144,24 +125,16 @@
     grid-template-columns: 50px 1fr 50px;
   }
 
-  .galleryModal__content__nextPhotoBtn {
+  .galleryModal__content__btn {
     width: 20px;
     height: 20px;
     padding: 20px;
   }
-
-  .galleryModal__content__prevPhotoBtn {
-    width: 20px;
-    height: 20px;
-    padding: 20px;
-  }
-
 
   .galleryModal__content__picsumImage {
     width: 94%;
     margin: auto;
     height: 250px;
     border-radius: 10px;
-
   }
 }

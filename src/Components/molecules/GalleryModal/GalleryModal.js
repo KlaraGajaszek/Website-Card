@@ -49,7 +49,6 @@ const GalleryModal = () => {
     }
   };
 
-  console.log(photos);
   return (
     <>
       <Modal
@@ -84,7 +83,7 @@ const GalleryModal = () => {
         <div className="gallerModal__content">
           <div className="galleryModal__imageSlider__wrapper">
             <button
-              className="galleryModal__content__prevPhotoBtn"
+              className="galleryModal__content__btn"
               disabled={photoIndex === 0 ? true : false}
               style={{
                 color: photoIndex === 0 ? 'grey' : '#2699fb',
@@ -104,7 +103,7 @@ const GalleryModal = () => {
               />
             )}
             <button
-              className="galleryModal__content__nextPhotoBtn"
+              className="galleryModal__content__btn"
               style={{
                 color: photoIndex === 9 ? 'grey' : '#2699fb',
                 borderColor: photoIndex === 9 ? 'grey' : '#2699fb',
